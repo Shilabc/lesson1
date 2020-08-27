@@ -1,0 +1,24 @@
+-Nhập vào số cần check number[];
+-Check format số vừa nhập;
+-count leng số vừa nhập = n;
+-switch
+	+nếu n= 1
+		=> là số đối xứng;
+	+nếu n != 1
+         	bolean check = true;
+                int i = 0, j = n - 1;
+		=> dùng for:
+			for (i,i < j/2, i++){
+				if(number[i] = number[j]
+					j--;
+      				else{
+ 					check = false;
+					break;
+				}
+			}
+		if (check){
+			=> là số đối xứng
+		}else{
+			=> không là số đối xứng.	
+		}
+	
